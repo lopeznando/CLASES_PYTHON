@@ -186,7 +186,7 @@ for i in numeros:
 ```
 ## FUNCIONES
 **Existen dos funciones**
-1. Propias de lenguaje
+1. **PROPIAS DEL LENGUAJE**
    
    Que ya vienen creadas ye insertadas en **PYTHON**  y estan listas para ser usadas
 
@@ -209,6 +209,93 @@ Entre parentisis podemos escribir un mensaje que indique la accion que realizara
 ```PYTHON
 input
 ```
+**FUNCION APPEND**
 
+funcion de python nos permite agregar elementos al final de la lista
 
-1. Funciones creadas
+```PYTHON
+lista=[15,12,78]
+elemento=100
+lista.append(elemento)
+print(lista)
+```
+**FUNCION POP**
+
+funcion de python que nos permite eliminar los elementos que encuentran al final de una lista
+y los almacena dentro de ello
+```PYTHON
+lista=[15,12,78]
+lista.pop( )
+print(lista)
+```
+**FUNCION INSERT**
+
+funcion de python que nos permite agregar elemnetos en cualquier posicion de mi loista para eso se le tiene que pasar dos paramentros, primero indicarle el indice y segundo el otro dato que se va agregar
+```PYTHON
+lista_nombres=["jory","nadine","bichota"]
+lista_nombres.insert(1,"santan")
+print(lista_nombres)
+```
+**FUNCION REMOVE**
+
+funcion de python que nos permite eliminar elementos de cualquier pocision de una lista, esta funcion recibe solo el elemento que deseamos eliminar 
+```PYTHON
+lista=[4,5,6,8,6,7]
+lista.remove(6)
+print(lista)
+```
+**FUNCION SPLIT**
+
+funcion que nos permite dividir en una lista una cadena
+```PYTHON
+cadena="hola como estan"
+lista=cadena.split( )
+print(lista)
+url="www.google.com/id=79273"
+id=url.split("=").pop()
+print(id)
+```
+
+1. **FUNCIONES CREADAS (PROPIAS)**
+
+pasos para crear una funcio propia
+
+1. hacer uso de la palabra reservada DEF.
+2. definir un nombre de funcion que descruba que tarea va a realizar.
+3. establecer los paramertros de que servira la funcion entre parebtesis ().
+4. establecer que valor o dato va retornar mi funcion con la palbra reservada return #> Observacion =>> tambien podemos hacer uso de la funcion print () para retornar un mensaje en nuestra funcion.
+
+Existen dos tipos de funciones los que no resiven ningun parametro y los que resiven parametros
+```PYTHON
+def saludo():
+ print("hola este es un saludo)
+```
+como hacemos uso de la funcion
+
+nombre de la funcion y parentesis
+
+funcion con parametros
+```PYTHON
+def mi_print(texto):
+ print(texto)
+```
+print("hola este print de python")
+
+mi_print("hola este es mi print de python")
+
+```PYTHON
+def suma(a,b):
+    total=a+b
+    return total
+
+mi_print(suma(45,12))#==>>>>>
+```
+```PYTHON
+def mi_max(lista):
+    numero_mayor=lista[0]
+    for numero in lista:
+     if numero > numero_mayor:
+        numero_mayor=numero
+    return numero_mayor
+mi_print(mi_max(lista))
+```

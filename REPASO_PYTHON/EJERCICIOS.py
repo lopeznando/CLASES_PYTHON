@@ -37,12 +37,23 @@
 # ingresado es el premiado el programa finalizara si el numero ingresado es incorrecto 
 # el programa seguira pidiendo el numero premiado 
 
-numero_ganador=10
-condicion=True
-while condicion:
-       numero_ingresado=int(input("ingrese un numero: "))
-       if numero_ingresado==numero_ganador:
-              print("ganste")
-              break 
-       else:
-              ("sigue intentando")
+# numero_ganador=10
+# condicion=True
+# while condicion:
+#        numero_ingresado=int(input("ingrese un numero: "))
+#        if numero_ingresado==numero_ganador:
+#               print("ganste")
+#               condicion=False
+#        else:
+#               ("sigue intentando")
+
+
+lista=[12,3,4,34,2]
+mi_print(min(lista))
+
+def mi_min(lista):
+    numero_menor=lista[0]
+    for numero<numeroi_menor:
+        numero_menor=numero
+    return numero_menor
+mi_print(mi_min(lista))
