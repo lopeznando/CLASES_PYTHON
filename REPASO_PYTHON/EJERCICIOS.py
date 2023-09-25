@@ -48,12 +48,74 @@
 #               ("sigue intentando")
 
 
-lista=[12,3,4,34,2]
-mi_print(min(lista))
+# lista=[12,3,4,34,2]
+# mi_print(min(lista))
 
-def mi_min(lista):
-    numero_menor=lista[0]
-    for numero<numeroi_menor:
-        numero_menor=numero
-    return numero_menor
-mi_print(mi_min(lista))
+# def mi_min(lista):
+#     numero_menor=lista[0]
+#     for numero < numeroi_menor:
+#     numero_menor=numero
+#     return numero_menor
+# print(mi_min(lista))
+
+##crear una funcion por cada operador aritmetico que resiva 
+##dos parametros y retorne el resultado de la operacion. crearse
+##una funcion que nos permita imprimir el resultado 
+# a=int(input(" SAIRE INGRESE EL NUMERO: "))
+# b=int(input(" SAIRE INGRESE EL NUMERO: "))
+# def suma(a,b):
+#     total=a+b
+#     return total
+# print(suma(a,b))
+
+
+# def resta(a,b):
+#     total=a-b
+#     return total
+# print(resta(a,b))
+
+# def multiplicar(a,b):
+#     total=a*b
+#     return total
+# print(multiplicar(a,b))
+
+# def dividir(a,b):
+#     total=a/b
+#     return total
+# print(dividir(a,b))
+
+##escribe una funcion que reciba un numero entero positivo
+##y devuelva su factorial
+def factorial(numero):
+    if numero == 0:
+        return 1
+    else:
+        return numero * factorial(numero - 1)
+
+numero = int(input("Ingresa un número entero positivo: "))
+resultado = factorial(numero)
+print("El factorial de", numero, "es", resultado)
+## escribir una funcion que resiva como parametros una 
+##una lista de numeros y retorne una nueva lista con cada 
+##numero elevados al cuadrado.
+def elevar_al_cuadrado(lista):
+    nueva_lista = []
+    for numero in lista:
+        nueva_lista.append(numero ** 2)
+    return nueva_lista
+##Escribir un programa que reciba una cadena de caracteres
+##y devuelva un objeto con cada palabra que contiene y su 
+##frecuencia
+def contar_palabras(cadena):
+    palabras = cadena.split()
+    frecuencia = {}
+    for palabra in palabras:
+        if palabra in frecuencia:
+            frecuencia[palabra] += 1
+        else:
+            frecuencia[palabra] = 1
+    return frecuencia
+
+cadena = input("Ingresa una cadena de caracteres: ")
+frecuencia_palabras = contar_palabras(cadena)
+print(frecuencia_palabras)

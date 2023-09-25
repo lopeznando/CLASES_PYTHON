@@ -299,3 +299,12 @@ def mi_max(lista):
     return numero_mayor
 mi_print(mi_max(lista))
 ```
+**FUNCIONES CON MUCHOS PARAMETROS**
+```PYTHON
+def funcion(muchis_parametros):
+    total=0
+    for numero in muchos_numeros:
+        total=total+numero
+        return total
+print(funcion(45,34,33,37,45))
+```
