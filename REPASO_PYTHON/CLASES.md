@@ -308,3 +308,11 @@ def funcion(muchis_parametros):
         return total
 print(funcion(45,34,33,37,45))
 ```
+```PYTHON
+def datos(*argumentos):
+    nombre=argumentos[0]
+    apellido=argumentos[1]
+    edad=argumentos[2]
+ return f' mi nombre es,{nombre},{apellido}y mi edad es,{edad}'
+ print(datos('edwin','apellido','50'))
+ 
