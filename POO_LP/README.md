@@ -46,3 +46,33 @@ llamandoNadine=Celular('alcatel','basico','2387394','987674856')
 print(llamandoNadine.marca)
 print(llamandoJory.familia)
 print(llamandoNadine.llamar('ollanta'))
+```
+
+
+## TAREA
+1. crear una lista con 10 objetos que contengan los datos de las tiendas comerciales
+```PYTHON
+tiendas=[
+  {
+    "ruc":28765879,
+    "nombre":"el pichilon",
+    "categoria":["bodega"]
+    "hoario_atencion":{
+      "dia":7am-12pm,
+      "tarde":2pm-8pm
+    }
+    "gerente":"nadine"
+  }
+]
+```
+## observacion
+las categorias sera 4: abarrotes,farmacias,bodega,restauran
+## observacion
+los gerentes solo podran ser los siguientes: edwin, china, cristian, nadine
+## realizar los siguientes ejercicios
+## crear la clase para tiendas que tenga los siguientes metodos uso de caso 
+1. crear un metodo que me filtre las tiendas que tiene cada gerente
+2. crear un metodo que me muestre los negocios que tienen mas de dos categorias
+3. crear un metodo que me muestre solo el nombre y ruc de las tiendas
+
+
