@@ -1,0 +1,100 @@
+puesto_gerente=[
+    {
+        "ruc":2345234,
+        "nombre":"la china",
+        "categoria":["bodega","abarrotes"],
+        "horario_atencion":{
+            "dia":"7am-12pm",
+            "tarde":"2pm-8pm"
+        },
+        "gerente":"nadine"
+    },
+    {
+      "ruc":23445234,
+        "nombre":"el ñañito",
+        "categoria":["bodega"],
+        "horario_atencion":{
+            "dia":"7am-12pm",
+            "tarde":"2pm-8pm"
+        },
+        "gerente":"nadine"  
+    },
+    {
+        "ruc":4365234,
+        "nombre":"intifarma",
+        "categoria":["farmacia"],
+        "horario_atencion":{
+            "dia":"7am-12pm",
+            "tarde":"2pm-8pm"
+        },
+        "gerente":"edwin"
+    },
+    {
+        "ruc":23434,
+        "nombre":"los finos",
+        "categoria":["restaurante"],
+        "horario_atencion":{
+            "dia":"7am-2pm",
+        },
+        "gerente":"china"
+    },
+    {
+        "ruc":765234,
+        "nombre":"las bodegueros",
+        "categoria":["bodega"],
+        "horario_atencion":{
+            "dia":"7am-12pm",
+            "tarde":"2pm-8pm"
+        },
+        "gerente":"cristian"
+    },
+    {"ruc":997234,
+        "nombre":"la chancla",
+        "categoria":["abarrotes"],
+        "horario_atencion":{
+            "dia":"7am-12pm",
+            "tarde":"2pm-8pm"
+        },
+        "gerente":"china"
+    },
+    {
+        "ruc":345234,
+        "nombre":"la casona",
+        "categoria":["bodega"],
+        "horario_atencion":{
+            "dia":"7am-2pm",
+        },
+        "gerente":"nadine"
+    },
+    {
+        "ruc":5234,
+        "nombre":"cruzfarma",
+        "categoria":["bodega","restaurante"],
+        "horario_atencion":{
+            "dia":"7am-12pm",
+            "tarde":"2pm-8pm"
+        },
+        "gerente":"edwin"
+    },
+    {
+        "ruc":974534,
+        "nombre":"la sueña",
+        "categoria":["farmacia"],
+        "horario_atencion":{
+            "dia":"7am-12pm",
+            "tarde":"2pm-8pm"
+        },
+        "gerente":"nadine"
+    },
+    {
+        "ruc":2345234,
+        "nombre":"el nandin",
+        "categoria":["bodega","farmacia","abarrotes"],
+        "horario_atencion":{
+            "dia":"7am-12pm",
+            "tarde":"2pm-8pm"
+        },
+        "gerente":"cristian"
+    }
+]
+
