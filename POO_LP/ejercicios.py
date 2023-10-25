@@ -115,20 +115,20 @@
 #     ------------------------------------
 
 
-class Mercado:
-    mercado='market'
-    def __init__(self,nroPuesto,tipoVenta,nombrePuesto,nombreDueño,horarioAtencion):
-        self.nroPuesto=nroPuesto
-        self.tipoVenta=tipoVenta
-        self.nombrePuesto=nombrePuesto
-        self.hnombreDueño=nombreDueño
-        self.hhorarioAtencion=horarioAtencion
+# class Mercado:
+#     mercado='market'
+#     def __init__(self,nroPuesto,tipoVenta,nombrePuesto,nombreDueño,horarioAtencion):
+#         self.nroPuesto=nroPuesto
+#         self.tipoVenta=tipoVenta
+#         self.nombrePuesto=nombrePuesto
+#         self.hnombreDueño=nombreDueño
+#         self.hhorarioAtencion=horarioAtencion
         
-def market(self):
-        respuest=f''
-        return f'abrir el {puesto}'
-    puestoDe=Nadine('numeroPuesto:10','tipoVenta:verduras',nombrePuesto)
-    print(puestoDe)
+# def market(self):
+#         respuest=f''
+#         return f'abrir el {puesto}'
+#     puestoDe=Nadine('numeroPuesto:10','tipoVenta:verduras',nombrePuesto)
+#     print(puestoDe)
 
 # class Laptop:
 #     tipo='Computadora portátil'

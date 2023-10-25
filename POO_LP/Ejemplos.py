@@ -62,12 +62,12 @@ class Producto:
 # suma(3,7)
 
 prod=Producto("aceite","extra virgen",2,"botella litro",12.50)
-print(prod.registrar_producto())
-print(prod.mostrar_productos())
+# print(prod.registrar_producto())
+# print(prod.mostrar_productos())
 # print(prod.mostrar_producto(1))
 # print(prod.eliminar_producto(2))
 # print(prod.mostrar_productos())
 print(prod.actualizar_producto(125,"precio",130))
-print(prod.mostrar_productos())
-#lis funcion para crear lista
+# print(prod.mostrar_productos())
+# #lis funcion para crear lista
 

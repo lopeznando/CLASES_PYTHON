@@ -52,31 +52,58 @@
 
 
 from bd import *
-class Puestos_gerente:
+class Puestos:
     def puesto1_gerente(self,bd_puesto_gerente,nombre_gerente):
         respuesta=list(filter(lambda el:el["gerente"]==nombre_gerente,bd_puesto_gerente))
         return respuesta 
-gerente=Puestos_gerente() 
-
-print(gerente.puesto1_gerente(puesto_gerente,"china"))
-print(gerente.puesto_mas_categorias(puesto_gerente))
-print(gerente.ruc_nombre(puesto_gerente))
 
 
-def puesto_mas_categorias(self,bd_puesto_gerente):
-    respuesta=list(filter(lambda el:len(el["categoria"])>2,bd_puesto_gerente))
-    return respuesta
 
 
-def ruc_nombre(self,bd_puesto_gerente):
-    respuesta=list(map(lambda el:{
+    def puesto_mas_categorias(self,bd_puesto_gerente):
+        respuesta=list(filter(lambda el:len(el["categoria"])>2,bd_puesto_gerente))
+        return respuesta
+
+
+
+    def ruc_nombre(self,bd_puesto_gerente):
+        respuesta=list(map(lambda el:{
         "nombre_puesto":el["nombre"],
         "ruc_puesto":el["ruc"]
-    },bd_puesto_gerente))
+        },bd_puesto_gerente))
 
-def eliminar_puesto(self,bd_puesto_gerente,ruc):
-    respuesta=list(filter(lambda el:el["ruc"]!=ruc,bd_puesto_gerente))
-    return respuesta
+    def eliminar_puesto(self,bd_puesto_gerente,ruc):
+        respuesta=list(filter(lambda el:el["ruc"]!=ruc,bd_puesto_gerente))
+        return respuesta
 
-def actualizar_puesto(self,bd_puesto_gerente,ruc,clave,valor):
-    respuesta=list(filter(lambda el:el))
+    def actualizar_puesto(self,bd_puesto_gerente):
+        puesto_actualizar=list(filter(lambda el:{["ruc"]:el["ruc"]},puesto_gerente))
+        return f"se actualizo{puesto_actualizar}"
+    
+    def registrar_puesto(self,ruc,nombre,categoria,horario_atencion,gerente):
+        nuevo=len(puesto_gerente)+1
+        puesto_nuevo={
+        'ruc':ruc,
+        'nombre':nombre,
+        'categoria':categoria,
+        'horario_atencion':horario_atencion,
+        'gerente':gerente
+    }
+        registro_puesto=puesto_gerente.append(puesto_nuevo)
+        return f"puesto registrado exitosamente: {puesto_nuevo}"
+    
+    def actualizar_horario(self, ruc, clave, valor):
+          puesto_gerente[ruc -1][clave] = valor 
+          return "SE ACTUALIZO"
+    
+    
+geren=Puestos()
+# print(gerente.puesto1_gerente(puesto_gerente,"china"))
+# print(gerente.puesto_mas_categorias(puesto_gerente))
+# print(gerente.ruc_nombre(puesto_gerente))
+# print(geren.actualizar_puesto())
+print(geren.registrar_puesto(243544,'el leñador','bodega,abarrotes',{'dia':'7am-12pm','tarde':'2pm-9pm'},'nadine'))
+# print(geren.actualizar_horario(1,"Horario_atencion",{  "dia": "5am - 11am"  "tarde": "1pm - 5pm"}))
+
+
+ 
