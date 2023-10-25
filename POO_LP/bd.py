@@ -1,6 +1,6 @@
 puesto_gerente=[
     {
-        "ruc":2345234,
+        "ruc":45234,
         "nombre":"la china",
         "categoria":["bodega","abarrotes"],
         "horario_atencion":{
@@ -10,7 +10,7 @@ puesto_gerente=[
         "gerente":"nadine"
     },
     {
-      "ruc":23445234,
+      "ruc":234234,
         "nombre":"el ñañito",
         "categoria":["bodega"],
         "horario_atencion":{
@@ -20,7 +20,7 @@ puesto_gerente=[
         "gerente":"nadine"  
     },
     {
-        "ruc":4365234,
+        "ruc":43654,
         "nombre":"intifarma",
         "categoria":["farmacia"],
         "horario_atencion":{
